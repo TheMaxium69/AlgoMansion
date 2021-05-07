@@ -1,0 +1,80 @@
+Piece 1
+
+-----Action
+-se lever
+
+-regarder
+
+-rechercher
+	-commode
+	-table de chevet
+	-armoire [TriggerA]
+
+-sortir de la chambre
+
+-pousser
+	-armoire [/TriggerA] | FIN
+
+-----------------------------------------------------
+Piece 2
+
+-----Action
+
+-Lire
+	-Lettre [/TriggerC]
+
+-rechercher
+	-chaise
+	-bureau
+	-biblio [TriggerC]
+
+-pousser
+	-biblio
+	-chaise [TriggerA]
+
+-appuyé
+	-button [/TriggerA] | [TriggerB]
+
+-Sortir [/TriggerB] | FIN
+
+-----------------------------------------------------
+Piece 3
+
+-----Action
+
+-interagir
+	-toile [TriggerA]
+
+-regarder
+	-toile
+
+-rechercher
+	-commode [/TriggerA] [Clef1]
+
+-Sortir [/Clef1]
+
+-----------------------------------------------------
+Couloir (Piece 4)
+
+-----Action
+
+-utiliser
+	-clef
+
+-----------------------------------------------------
+Piece 5
+
+-----Action
+
+-utiliser
+	-clef
+		-table de chevet
+
+-prendre
+	-lettre [Clef2]
+
+-reposer[Trigger1] 
+
+-Utiliser[/Trigger1] 
+	-clef1 | FIN
+	-clef2 | FIN
