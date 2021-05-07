@@ -1,6 +1,8 @@
 # AlgoMansion
 
-Projet de formation [Module WebStatique]
+Dev avec le logiciel "Algobox"
+
+Projet de formation [Module Algorithme]
 
 /Appartement légalement à Human-Booster
 
